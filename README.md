@@ -41,7 +41,7 @@
 - Scalable, refer to the code’s ability to scale up without increasing time and space complexity.
 
 ## Useful notes :
-- Programs store `variables` are stored in `RAM`.
+- Programs store `variables` in `RAM`.
 - `RAM` or **Random Access Memory** offers random access to data addresses without climbing up or down the memory list.
 - `RAM` is a data structure that stores data in `addresses`.
 - Each address in RAM holds `8 bits` of numbers that make up one `Byte`.
