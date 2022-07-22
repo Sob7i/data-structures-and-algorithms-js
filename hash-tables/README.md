@@ -7,7 +7,7 @@ By [Sobhi Al Khuder](https://github.com/Sob7i?tab=repositories)
 > A **hash table (hash map)** is **a data structure that implements an associative array abstract data type, a structure that can map keys to values**. A hash table uses a hash function to compute an index, also called a **hash code**, into **an array of buckets or slots**, from which the desired value can be found.  - [Wikipedia](https://en.wikipedia.org/wiki/Hash_table#:~:text=In%20computing%2C%20a%20hash%20table,desired%20value%20can%20be%20found.).
 > 
 
-### **Objects** are **hash tables** in Javascript.
+### * NOTE: **Objects** are **hash tables** in Javascript.
 
 ## 2 - Big O for hash table operations:
 
