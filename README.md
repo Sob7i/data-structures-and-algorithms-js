@@ -9,31 +9,29 @@
 
 - [Big O notation](https://www.notion.so/Big-O-notation-cdaf8a5ffc224379bebe3268e3be65b0)
 
-- [Data structures](https://www.notion.so/Data-structures-e54ab671689c4474aa6a9a6fedd64e42)
-
 - [Arrays](https://www.notion.so/Arrays-ee7c32363d8c4463b5c49b5f0ee95ec3)
 
 - [Hash tables](https://www.notion.so/Hash-tables-1b12d878205347f4a41fc80d3524803c)
 
 - [Linked lists](https://www.notion.so/Linked-lists-3857354e0f4d4ddc9a90b38438004da8)
 
-- [Stacks & Queues](https://www.notion.so/Stacks-Queues-e5a2935783b4494bbdd650d908027766)
+- Stacks & Queues
 
-- [Trees](https://www.notion.so/Trees-4802e0d4f88c43ad97a834531ab73819)
+- Trees
 
-- [Graphs](https://www.notion.so/Graphs-71778040641d49d289e983bf6a45b24b)
+- Graphs
 
-- [DS comparison](https://www.notion.so/DS-comparison-9ce09d3e383a4f36bc31fa185fce3ed6)
+- DS comparison
 
-- [Recursion](https://www.notion.so/Recursion-f7c84ab378804828b449665fb2fc8c00)
+- Recursion
 
-- [Sorting](https://www.notion.so/Sorting-4932da069420444daf08ec29af7f33d0)
+- Sorting
 
-- [Searching + BFS + DFS](https://www.notion.so/Searching-BFS-DFS-d8c34f3b334a4afe992adad0ec3d5b17)
+- Searching + BFS + DFS
 
-- [Dynamic Programming](https://www.notion.so/Dynamic-Programming-3831d26131bd41068dc852e9a5260ff9)
+- Dynamic Programming
 
-- [Algorithms comparison](https://www.notion.so/Algorithms-comparison-8432306e27994031a5d821bce5858a04)
+- Algorithms comparison
 
 ## Good code is :
 
