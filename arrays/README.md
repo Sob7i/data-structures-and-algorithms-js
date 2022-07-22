@@ -154,4 +154,3 @@ console.log(sorted) // [ 1, 3, 4, 6, 7, 8 ]
 - Arrays have **O(1) random access** but are really **expensive** to **add** stuff onto or **remove** stuff from.
 - You need **indexed/random access** to elements.
 - You know the **number** of elements in the array ahead of time so that you can allocate the correct amount of memory for the array.
--
