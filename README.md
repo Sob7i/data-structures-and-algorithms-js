@@ -40,7 +40,20 @@
 - Readable, refer to the code’s simplicity and clarity.
 - Scalable, refer to the code’s ability to scale up without increasing time and space complexity.
 
-Resources: 
+## Useful notes :
+- Programs store `variables` are stored in `RAM`.
+- `RAM` or **Random Access Memory** offers random access to data addresses without climbing up or down the memory list.
+- `RAM` is a data structure that stores data in `addresses`.
+- Each address in RAM holds `8 bits` of numbers that make up one `Byte`.
+- A bit is like an electrical switch that turns on `1` and off `0`.
+- The CPU is connected to what is known as a `memory controller` that does reading and writing to memory.
+- A `Cache` is a CPU's tiny memory that stores recent data.
+- An integer is represented in `32 bits`, an average of 4 addresses.
+- Computers can have 8, 16, 32, and 64 bits per address.
+- An **`integer overflow`** occurs when an **`arithmetic operation`** attempts to create a numeric value that is outside of the range that can be represented with a given number of digits – either higher than the maximum or lower than the minimum representable value.
+- An example of integer overflow happens when using `Math.pow()`. If the result is bigger than a certain threshold, it’ll be evaluated to `infinity` instead.
+
+## Resources: 
 
 - [Big O cheatsheet](http://bigocheatsheet.com)
 - [Hash collision animation](https://www.cs.usfca.edu/~galles/visualization/OpenHash.html)
