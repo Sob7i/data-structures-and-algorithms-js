@@ -1,5 +1,7 @@
 # Linked lists
 
+By [Sobhi Al Khuder](https://github.com/Sob7i?tab=repositories)
+
 ## 1- introduction
 
 **1.1 -** A linked list is a linear data structure that represents a collection of elements, where each element points to the next one. The first element in the linked list is the head and the last element is the tail.
