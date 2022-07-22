@@ -4,7 +4,7 @@
 - Tags: Software core, Tech
 - Last update: July 22, 2022
 
-# Table of content :
+## Table of content :
 
 - [Big O notation](https://www.notion.so/Big-O-notation-cdaf8a5ffc224379bebe3268e3be65b0)
 - [Arrays](https://www.notion.so/Arrays-ee7c32363d8c4463b5c49b5f0ee95ec3)
