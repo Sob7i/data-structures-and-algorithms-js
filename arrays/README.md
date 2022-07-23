@@ -40,17 +40,17 @@ an array that allocates at ( **run-time )** **double the amount of memory** nee
 
 Check the link below to run the code example:  
 
-[Array implementation example](https://replit.com/@Sob7i/Array-implementation-example#index.js:11:7)
+[Array implementation example](https://replit.com/@Sob7i/Array-implementation-example#index.js:37:2)
 
 ```jsx
 function shiftIndexBackward(data, length) {
-  for(let i = length - 1; i >= 0; i--) {
+  for (let i = length - 1; i >= 0; i--) {
     data[i + 1] = data[i]
   }
 }
 
 function shiftIndexForward(data, length) {
- for(let i = 0 ; i <= length - 1; i++) {
+  for (let i = 0; i <= length - 1; i++) {
     data[i] = data[i + 1]
   }
 }
@@ -62,12 +62,14 @@ class MyArray {
   }
 
   // O(1)
-  get(index) { 
-    return this.data[index] 
+  get(index) {
+    if (index === undefined) throw new Error('argument was expected')
+    return this.data[index]
   }
   // O(1)
   push(elem) {
-    this.data[this.length] = elem 
+    if (elem === undefined) throw new Error('argument was expected')
+    this.data[this.length] = elem
     this.length++
     return this.data[this.length]
   }
@@ -80,6 +82,7 @@ class MyArray {
   }
   // O(n)
   unshift(elem) {
+    if (elem === undefined) throw new Error('argument was expected')
     shiftIndexBackward(this.data, this.length)
     this.data[0] = elem
     this.length++
@@ -93,6 +96,7 @@ class MyArray {
   }
   // O(n)
   map(cb) {
+    if (!cb) throw new Error('argument was expected')
     for (let i = 0; i < this.length; i++) {
       cb(this.data[i], i)
     }
@@ -101,6 +105,26 @@ class MyArray {
 }
 
 const array = new MyArray()
+array.push('foo')
+array.push('bar')
+array.push('random')
+array.push('test')
+array.push('any')
+console.log('array', array)
+
+const firstIndex = array.get(0)
+console.log('firstIndex', firstIndex)
+
+array.pop()
+console.log('after removing last element', array)
+
+array.shift()
+console.log('after removing first element', array)
+
+array.unshift('foo')
+console.log('after adding first element', array)
+
+array.map(elem => console.log('mapped element: ', elem))
 
 ```
 
