@@ -46,11 +46,6 @@ Check the link below to run the code example:
  
 
 ```jsx
- /**
-A trivial example of Array Data Structure implementation with Big O 
-notation for each of its methods.
-*/
-
 function shiftIndexBackward(data, length) {
   for(let i = length - 1; i >= 0; i--) {
     data[i + 1] = data[i]

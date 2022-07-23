@@ -52,6 +52,8 @@ The amount of time taken by an algorithm to run.
 - Looping `(for, while)`
 - Function calls `(function())`
 
+---
+
 ## 3 - Space complexity:
 
 The amount of space or memory that is taken by an algorithm to run.
@@ -65,9 +67,9 @@ The amount of space or memory that is taken by an algorithm to run.
 - Function call.
 - Allocations.
 
-## 4 - Big Os:
-
 ---
+
+## 4 - Big Os:
 
 ![complexity-chart](./complexity-chart.png)
 
