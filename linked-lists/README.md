@@ -19,6 +19,7 @@ By [Sobhi Al Khuder](https://github.com/Sob7i?tab=repositories)
 
 ![linked-list](./linked-list.png)
 
+---
 ## 2- Big O for **linked list** operations:
 
 - Lookup: → `O(n)`
@@ -26,14 +27,14 @@ By [Sobhi Al Khuder](https://github.com/Sob7i?tab=repositories)
 - Insertion:  → `O(1)`
 - Deletion:  → `O(1)`
 
-## Why Linked Lists?
+## 3- Why Linked Lists?
 
 - Linked lists are often used because of their efficient **insertion** and **deletion (O(1) CONSTANT)**. They can be used to implement **stacks**, **queues**, and other abstract data types.
 - You don't know **how many items will be in the list**. With arrays, you may need to re-declare and copy memory if the array grows too big
 - You don't need **random access (O(n) LINEAR).**
 - You want to be able to **insert items in the middle** of the list (such as a **priority queue**)
 
-## Linked list implementation:
+## 4- Linked list implementation:
 
 ```jsx
 class Node {
@@ -132,11 +133,11 @@ myList.print()
 myList.remove(1)
 myList.print()
 ```
-
-## Notes:
+---
+## 5- Notes:
 
 - Computers have a built-in caching mechanism that allows them to read data that are stored in contiguous order faster than scattered data.
-
+---
 ## TO BE CONTINUED:
 - Example of passing by reference
 - What is a pointer?

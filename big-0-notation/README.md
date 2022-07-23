@@ -28,8 +28,6 @@ function measurePerformance() {
   let timeAfter = performance.now()
   console.log(`This function took ${timeAfter - timeBefore} ms`)
 }
-
-measurePerformance() 
 ```
 
 ### 1.3 - Performance results :
@@ -130,7 +128,7 @@ function logPairs() {
 ---
 ## 4.4 - Factorial time complexity `O(n!)` - Worst :
  TO BE CONTINUED
- 
+
 ---
 ## 5 - Relationship table between input `n` and run time `t`
 
