@@ -66,7 +66,7 @@ A search algorithm that uses hashing consists of **two parts**. **The first part
 
 ## 6- Implement a hash table
 
-[Hash table implementation example](https://replit.com/@Sob7i/Hash-table-implementation-example#index.js:32:10)
+[Hash table implementation example](https://replit.com/@Sob7i/Hash-table-implementation-example#index.js)
 
 ```jsx
 class HashTable {
@@ -74,7 +74,7 @@ class HashTable {
     this.data = new Array(size)
   }
 
-  _hash(key) {
+  #hash(key) {
     let hash = 0
 
     for(let i = 0; i < key.length; i++) {
@@ -86,7 +86,7 @@ class HashTable {
   }
 
   set(key, value) {
-    const address = this._hash(key)
+    const address = this.#hash(key)
     
     if(!this.data[address]){ 
       this.data[address] = []
@@ -96,7 +96,7 @@ class HashTable {
   }
   
   get(key) {
-    const address = this._hash(key)
+    const address = this.#hash(key)
     const currentBucket = this.data[address]
 
     if(currentBucket) {
