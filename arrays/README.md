@@ -104,28 +104,6 @@ class MyArray {
   }
 }
 
-const array = new MyArray()
-array.push('foo')
-array.push('bar')
-array.push('random')
-array.push('test')
-array.push('any')
-console.log('array', array)
-
-const firstIndex = array.get(0)
-console.log('firstIndex', firstIndex)
-
-array.pop()
-console.log('after removing last element', array)
-
-array.shift()
-console.log('after removing first element', array)
-
-array.unshift('foo')
-console.log('after adding first element', array)
-
-array.map(elem => console.log('mapped element: ', elem))
-
 ```
 
 ## 5 - Strings and Arrays:
