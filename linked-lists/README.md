@@ -19,7 +19,7 @@ By [Sobhi Al Khuder](https://github.com/Sob7i?tab=repositories)
 
 ![linked-list](./linked-list.png)
 
----
+
 ## 2- Big O for **linked list** operations:
 
 - Lookup: → `O(n)`
@@ -133,11 +133,11 @@ myList.print()
 myList.remove(1)
 myList.print()
 ```
----
+
 ## 5- Notes:
 
 - Computers have a built-in caching mechanism that allows them to read data that are stored in contiguous order faster than scattered data.
----
+
 ## TO BE CONTINUED:
 - Example of passing by reference
 - What is a pointer?

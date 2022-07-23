@@ -9,7 +9,6 @@ By [Sobhi Al Khuder](https://github.com/Sob7i?tab=repositories)
 
 ### * NOTE: **Objects** are **hash tables** in Javascript.
 
----
 ## 2 - Big O for hash table operations:
 
 - lookup → `O(1)`
@@ -17,7 +16,6 @@ By [Sobhi Al Khuder](https://github.com/Sob7i?tab=repositories)
 - Delete → `O(1)`
 - Searching → `O(1)`
 
----
 ## 3 - Hash functions:
 
 3.1 -  A hash function is a function that takes input and generates an encrypted value of fixed length for that input. This function is known as **idempotent,** which means it always outputs the same value of a given input. 
@@ -31,7 +29,6 @@ By [Sobhi Al Khuder](https://github.com/Sob7i?tab=repositories)
 | SHA-1  | 160 bits / 20 bytes | 40 hexadecimal digits | Less | Used in  SSL certificates |
 | SHA-256  | 256 bits / 32 bytes | 64 hexadecimal digits | High | Commonly used in blockchain. |
 
----
 ## 4 - Hash Collisions:
 
 4**.1 -** Sometimes, a hash function can generate the same index for more than one key. This scenario is referred to as a **hash collision.** Collisions are a problem because every slot in a hash table is supposed to store a single element.
@@ -60,7 +57,6 @@ A search algorithm that uses hashing consists of **two parts**. **The first part
         
         ![open-addressing](./open-addressing.png)
          
----
 ## 5 - Hash-map vs Hash-table:
 
  Both DS provide a key/value functionality but there are a few differences :
@@ -70,7 +66,6 @@ A search algorithm that uses hashing consists of **two parts**. **The first part
 | Hashmap | Map | Any data type | No | Bad. limited to single-threaded |
 | Hashtable | Object | Integers or strings | Yes | Good. Built-in natively. Can be shared by multiple threads |
 
----
 ## 6- Implement a hash table
 
 [Hash table implementation example](https://replit.com/@Sob7i/Hash-table-implementation-example#index.js:32:10)
@@ -153,7 +148,6 @@ fruits.get('apples') // O(1) -> Excellent if no / low collision. Otherwise
 fruits.keys() // O(n^2) -> Bad 
 ```
 
----
 ## 7- Google interview question (First recurring number) :
 
 ```jsx
@@ -217,7 +211,6 @@ const result2 = findFirstRecurringNum2(testCase)
 console.log('result2', result2) // Outputs 0.1097 ms
 ```
 
----
 ## 8- Notes:
 
 - Hash tables are useful for solving time complexity problems.
@@ -226,7 +219,6 @@ console.log('result2', result2) // Outputs 0.1097 ms
 - Hash tables are a good use case for DB operations.
 - Good for access, bad for memory.
 
----
 ## 9- Why Hash tables: 
  TO BE CONTINUED
  
