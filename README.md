@@ -1,6 +1,5 @@
 # Data structures and algorithms in Javascript
 
-- Author: Sobhi Al Khuder
 - Tags: Software core, Tech
 - Last update: July 23, 2022
 

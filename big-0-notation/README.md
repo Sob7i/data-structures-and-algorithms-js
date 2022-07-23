@@ -1,7 +1,5 @@
 # Big O notation
 
-By [Sobhi Al Khuder](https://github.com/Sob7i?tab=repositories)
-
 ## 1 - Introduction:
 
 > In computer science, big O notation is used to [classify algorithms](https://en.wikipedia.org/wiki/Computational_complexity_theory) according to how their ***run time*** or ***space*** requirements grow as the input size grows.  - *Wikipedia*

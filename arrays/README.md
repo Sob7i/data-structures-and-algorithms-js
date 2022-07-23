@@ -1,6 +1,5 @@
 # Arrays
 
-By [Sobhi Al Khuder](https://github.com/Sob7i?tab=repositories)
 
 ## 1- Introduction
 
