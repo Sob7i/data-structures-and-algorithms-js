@@ -2,7 +2,11 @@
 
 - Author: Sobhi Al Khuder
 - Tags: Software core, Tech
-- Last update: July 22, 2022
+- Last update: July 23, 2022
+
+---
+## Inroduction:
+Hi there 👋 .This is a place where I share my thoughts and notes about data structures and algorithms in JS. The porpuse of this project is to help Javascript / Typescript developers to understand core software principles and hopfully to help them write a better code. **NOTE:** I'm still actively working on this repository, so I'm sorry if you find some unfinished pages, I'm doing my best to get this done as soon as possible. Any feedback would be much appreciated. Have a good read! 📚. 
 
 ## Table of content :
 
