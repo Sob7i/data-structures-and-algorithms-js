@@ -122,19 +122,7 @@ function logPairs() {
 ## 4.4 - Factorial time complexity `O(n!)` - Worst :
  TO BE CONTINUED
 
-## 5 - Relationship table between input `n` and run time `t`
-
-| Big Os | Syntax | Input size | Run time  | Score |
-| --- | --- | --- | --- | --- |
-| Linear | O(n) |   ⬆️ |  ⬆️ | Fair  🟡 |
-| Constant | O(1) |   ⬆️ |  ⏹️  | Excellent  🟢 |
-| Quadratic | O(n^2) |   ⬆️ |  ⬆️  ^ 2 | Horrible 🔴 |
-| Logarithmic | O(log N) |  |  |  |
-| Log Linear | O(n*log(n)) |  |  |  |
-| Exponential | O(2^N) |  |  |  |
-| Factorial | O(n!)  |  |  |  |
-
-## 6 - Big O rules:
+## 5 - Big O rules:
 
 Rules to follow for measuring big O notation.
 
@@ -167,3 +155,15 @@ Rules to follow for measuring big O notation.
 - **Drop the Non-Dominants**
     
      In the case of complex big O notions like `(n^2 + n + 100 + n/2)`, we drop the Non Dominant values and keep only the Most Dominant one `(n^2)`.
+
+## 6 - Relationship table between input `n` and run time `t`
+
+| Big Os | Syntax | Input size | Run time  | Score |
+| --- | --- | --- | --- | --- |
+| Linear | O(n) |   ⬆️ |  ⬆️ | Fair  🟡 |
+| Constant | O(1) |   ⬆️ |  ⏹️  | Excellent  🟢 |
+| Quadratic | O(n^2) |   ⬆️ |  ⬆️  ^ 2 | Horrible 🔴 |
+| Logarithmic | O(log N) | TO BE CONTINUED
+| Log Linear | O(n*log(n)) | TO BE CONTINUED
+| Exponential | O(2^N) | TO BE CONTINUED
+| Factorial | O(n!)  |  TO BE CONTINUED
