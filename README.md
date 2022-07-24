@@ -3,7 +3,6 @@
 - Tags: Software core, Tech
 - Last update: July 23, 2022
 
----
 ## Inroduction:
 Hi there 👋 . This is a place where I share my thoughts and notes about data structures and algorithms in JS. The drive of this project is to help Javascript / Typescript developers to understand core software principles and hopefully to help them write better code. **NOTE**: I'm still actively working on this repository, so I'm sorry if you find some unfinished pages. I am doing my best to get this done as soon as possible. Any feedback would be much appreciated. Have a good read! 📚.
 
