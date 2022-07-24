@@ -39,7 +39,7 @@ A pointer in javascript is a reference to a particular location in memory. In ot
 
 ## 5- Doubly linked list:
 
-It is simply a single linked list with and extra pointer to the previous element. 
+It is simply a single linked list with an extra pointer to the previous element. 
 
 ## 6- Singly vs doubly linked list:
 
