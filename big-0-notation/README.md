@@ -39,7 +39,6 @@ function measurePerformance() {
 
 The amount of time taken by an algorithm to run.
 
----
 ### 2.2 - What causes time in a function?
 
 - Operations `(+, -, *, / )`
@@ -47,12 +46,9 @@ The amount of time taken by an algorithm to run.
 - Looping `(for, while)`
 - Function calls `(function())`
 
----
 ## 3 - Space complexity:
 
 The amount of space or memory that is taken by an algorithm to run.
-
----
 
 ### What causes space in a function?
 
@@ -61,7 +57,6 @@ The amount of space or memory that is taken by an algorithm to run.
 - Function call.
 - Allocations.
 
----
 ## 4 - Big Os:
 
 ![complexity-chart](./complexity-chart.png)
@@ -82,7 +77,7 @@ function compressFiles(files) {
 	files.forEach(f => compress(f))
 }
 ```
----
+
 ### 4.2 - Constant time complexity  `O(1)`  - Excellent :
 
 An algorithm is said to have constant time when it is not dependent on the input size `n`. Irrespective of the input size `n`, the runtime will always be the same.
@@ -101,7 +96,7 @@ function compressFiles(files) {
 } // O(2) or aka O(1)
 
 ```
----
+
 ### 4.3- Quadratic time complexity  `O(n^2)`  -  Horrible :
 
 An algorithm is said to have a quadratic time complexity where the run time increases *quadratically*  `(n^2)`with the length of the input. 
@@ -123,11 +118,10 @@ function logPairs() {
 } // Nested loops create Big O(n * n)
 
 ```
----
+
 ## 4.4 - Factorial time complexity `O(n!)` - Worst :
  TO BE CONTINUED
 
----
 ## 5 - Relationship table between input `n` and run time `t`
 
 | Big Os | Syntax | Input size | Run time  | Score |
@@ -143,8 +137,6 @@ function logPairs() {
 ## 6 - Big O rules:
 
 Rules to follow for measuring big O notation.
-
----
 
 - **Worst Case**
     
