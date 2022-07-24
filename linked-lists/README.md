@@ -15,15 +15,16 @@
 - `value`: The value of the element
 - `next`: A pointer to the next element in the linked list (`null` if there is none)
 
-![linked-list](./linked-list.png)
-
+[![linked-list](./linked-list.png)](https://www.30secondsofcode.org/articles/s/js-data-structures-linked-list)
 
 ## 2- Big O for **linked list** operations:
 
 - Lookup: → `O(n)`
 - Search:  → `O(n)`
-- Insertion:  → `O(1)`
-- Deletion:  → `O(1)`
+- Append: → `O(1)`
+- Prepend: → `O(1)`
+- Insert (at a specific location):  → `O(n)`
+- Delete:  → `O(1)`
 
 ## 3- Why Linked Lists?
 
@@ -32,8 +33,23 @@
 - You don't need **random access (O(n) LINEAR).**
 - You want to be able to **insert items in the middle** of the list (such as a **priority queue**)
 
-## 4- Linked list implementation:
+## 4- What is a pointer?
 
+A pointer in javascript is a reference to a particular location in memory. In other words, pointers are a way to reuse existing objects. Since Javascript is a high-level programming language, it maintains a small memory footprint, one way to achieve that is to create references to other memory locations under the hood instead of allocating new memory addresses. In low-level programming languages like C or C#, we can explicitly create pointers by utilizing the `&` operator. While in Javascript, we can use the assignment operator `=` with objects, to establish a link to it, and whenever that object is mutated, all pointers will get mutated too. [Passing by reference VS passing by value](https://dmitripavlutin.com/value-vs-reference-javascript/#:~:text=In%20JavaScript%2C%20you%20can%20pass,by%20reference%20when%20assigning%20objects.) are crucial concepts to grasp in Javascript.
+
+## 5- Doubly linked list:
+
+It is simply a single linked list with and extra pointer to the previous element. 
+
+## 6- Singly vs doubly linked list:
+
+| Type | Memory | Traversal |
+| --- | --- | --- |
+| Single linked list | Lower | unidirectional |
+| Doubly linked list | Higher | bidirectional |
+
+## 7- Linked list implementation:
+[Linked list implementation example](https://replit.com/@Sob7i/Linked-list-implementation-example#index.js)
 ```jsx
 class Node {
   constructor(value) {
@@ -132,16 +148,12 @@ myList.remove(1)
 myList.print()
 ```
 
-## 5- Notes:
+## 8- Useful use cases of Linked Lists :
+
+- File systems
+- Browser history
+- Resolving hash collision
+
+## 9- Notes:
 
 - Computers have a built-in caching mechanism that allows them to read data that are stored in contiguous order faster than scattered data.
-
-## TO BE CONTINUED:
-- Example of passing by reference
-- What is a pointer?
-- Singly vs doubly linked list
-- Insertion
-- Deletion
-- Appending
-- Prepending
-- Searching
