@@ -9,10 +9,10 @@ Hi there 👋 . This is a place where I share my thoughts and notes about data s
 
 ## Table of content :
 
-- [Big O notation](https://www.notion.so/Big-O-notation-cdaf8a5ffc224379bebe3268e3be65b0)
-- [Arrays](https://www.notion.so/Arrays-ee7c32363d8c4463b5c49b5f0ee95ec3)
-- [Hash tables](https://www.notion.so/Hash-tables-1b12d878205347f4a41fc80d3524803c)
-- [Linked lists](https://www.notion.so/Linked-lists-3857354e0f4d4ddc9a90b38438004da8)
+- [Big O notation](./big-0-notation/README.md)
+- [Arrays](./arrays/README.md)
+- [Hash tables](./hash-tables/README.md)
+- [Linked lists](./linked-lists/README.md)
 - Stacks & Queues
 - Trees
 - Graphs
