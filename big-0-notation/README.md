@@ -39,7 +39,7 @@ function measurePerformance() {
 
 The amount of time taken by an algorithm to run.
 
-### 2.2 - What causes time in a function?
+### 2.1 - What causes time in a function?
 
 - Operations `(+, -, *, / )`
 - Comparisons `(<, >, ==)`
@@ -50,7 +50,7 @@ The amount of time taken by an algorithm to run.
 
 The amount of space or memory that is taken by an algorithm to run.
 
-### What causes space in a function?
+### 3.1 - What causes space in a function?
 
 - Variables.
 - Data structures.
