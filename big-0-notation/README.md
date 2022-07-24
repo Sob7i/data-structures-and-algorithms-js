@@ -59,7 +59,7 @@ The amount of space or memory that is taken by an algorithm to run.
 
 ## 4 - Big Os:
 
-![complexity-chart](./complexity-chart.png)
+[![complexity-chart](./complexity-chart.png)](http://bigocheatsheet.com)
 
 ### 4.1 - Linear time complexity  `O(n)` - Fair :
 
